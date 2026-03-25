@@ -1,0 +1,22 @@
+{
+  "name": "gitdad",
+  "version": "1.0.0",
+  "description": "A robot honing signal in case you've lost your dad",
+  "main": "src/gitdad.js",
+  "bin": {
+    "gitdad": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/gitdad.test.js"
+  },
+  "keywords": [
+    "dad",
+    "honing",
+    "signal",
+    "locate",
+    "cli"
+  ],
+  "author": "www-infinity4",
+  "license": "MIT"
+}
